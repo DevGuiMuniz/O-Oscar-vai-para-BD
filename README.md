@@ -23,3 +23,14 @@ Banco de dados sobre premiação de Oscar
   <p> R: Ganharam 2 Oscar em 2011. Código: select * from movies where film like "%Toy Story%" and winner = 'True';</p>
   
   <h3>5) Quem tem mais Oscars: a categoria "Melhor Ator" ou "Melhor Filme"?</h3>
+  
+  <p> R: Melhor filme tem mais Oscars com seus 93 Filmes. Código: SELECT COUNT(id_movie) FROM movies WHERE (category = "BEST PICTURE" OR category like "%PICTURE" OR category like "%PRODUCTION")AND WINNER = 'True'; ||  SELECT count(id_movie) FROM movies where category = "ACTOR" AND WINNER = 'True';  </p> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
