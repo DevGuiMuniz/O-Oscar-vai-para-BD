@@ -32,7 +32,9 @@ Banco de dados sobre premiação de Oscar
   <h3> 7) Na coluna/campo Winner, altere todos os valores com "True" para 1 e todos os valores "False" para 0.</h3>
   <p> update movies set winner="1" where winner = "true"; ||
       update movies set winner="0" where winner = "false"; </p> 
-    
+  <h3> 8)Em qual edição do Oscar "Crash" ganhou o prêmio principal?</h3>
+  <p> R: </p>
+  
     
     
     
