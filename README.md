@@ -30,6 +30,9 @@ Banco de dados sobre premiação de Oscar
   <p> R: O primeiro Oscar foi para a Janet Gaynor em 1928. Código: SELECT * From movies WHERE category = "ACTRESS" and WINNER = 'True' ORDER BY year_ceremony; 
  </p>
   
+  <h3> Na coluna/campo Winner, altere todos os valores com "True" para 1 e todos os valores "False" para 0. </h3>
+  <p>R:  </p>
+  
   <h3> 7) Na coluna/campo Winner, altere todos os valores com "True" para 1 e todos os valores "False" para 0.</h3>
     
     
