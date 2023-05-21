@@ -25,6 +25,12 @@ Banco de dados sobre premiação de Oscar
   <h3>5) Quem tem mais Oscars: a categoria "Melhor Ator" ou "Melhor Filme"?</h3>
   
   <p> R: Melhor filme tem mais Oscars com seus 93 Filmes. Código: SELECT COUNT(id_movie) FROM movies WHERE (category = "BEST PICTURE" OR category like "%PICTURE" OR category like "%PRODUCTION")AND WINNER = 'True'; ||  SELECT count(id_movie) FROM movies where category = "ACTOR" AND WINNER = 'True';  </p> 
+  
+  <h3> 6) O primeiro Oscar para melhor Atriz foi para quem? Em que ano? </h3>
+  <p> R: O primeiro Oscar foi para a Janet Gaynor em 1928. Código: SELECT * From movies WHERE category = "ACTRESS" and WINNER = 'True' ORDER BY year_ceremony; 
+ </p>
+  
+  <h3> 7) Na coluna/campo Winner, altere todos os valores com "True" para 1 e todos os valores "False" para 0.</h3>
     
     
     
