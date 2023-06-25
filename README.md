@@ -1,7 +1,7 @@
 # O-Oscar-vai-para-BD
 Banco de dados sobre premiação de Oscar
 
-<img src = "https://github.com/DevGuiMuniz/O-Oscar-vai-para-BD/blob/main/oscar.jpg">
+<img height="220" width="200" src = "https://github.com/DevGuiMuniz/Hospital-Muniz-e-seus-dados/blob/main/mysql-original-wordmark.svg">
 
 <h1>Atividades para trabalhar com o Oscar<h1/>
   
